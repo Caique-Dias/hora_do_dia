@@ -10,14 +10,12 @@ if (horas > 4 && horas < 12){
     img.src = "imgs/manha-pq.jpg"
     document.body.style.backgroundColor = "#e2cd9f"
     momento = "manhã"
-    console.log("Manha")
 }
 
 else if(horas >= 12 && horas < 18){
     img.src = "imgs/tarde-pq.png"
     document.body.style.backgroundColor = "#5299CD"
     momento = "tarde"
-    console.log("Tarde")
 }
 
 else if(horas >= 18){
@@ -34,5 +32,5 @@ else{
 }
 
 
-txt.innerHTML = `Agora são <strong>${horas} </strong>da <strong>${momento}</strong>.`
+txt.innerHTML = `Agora são <strong>${horas}</strong> da <strong>${momento}</strong>.`
 
